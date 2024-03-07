@@ -36,7 +36,7 @@ display: flex;
     margin-top: 14px;
     margin-left: 20px; 
 }
-ul{}
+
 ul li
 {
 	list-style: none;
@@ -62,7 +62,7 @@ ul li a:hover
 }
 li a::after{
    content: "";
-   display: 
+   display: "";
 }	
 li.dropdown {
   display: inline-block;
@@ -99,50 +99,57 @@ li.dropdown {
   display: block;
 
 }
-.register-btn
+button
 {
   margin-top: 10px;
-  background: rgba(255,255,255,0.1);
+  background: rgb(255,255,255);
   padding: 10px;
   backdrop-filter:blur(50px); 
   margin-left:490px;
-  border-radius: 4px;
+  border-radius: 10px;
   margin-bottom: -10px;
 }
-table
-{
-  background: rgba(255,255,255,0.1);
-  backdrop-filter:blur(20px);
-  padding: 20px;
-  border-radius:10px;
-  margin-top: 40px;
-  font-family: agency fb;
-  font-size: 20px; 
-}
-th{color: black}
-a{color: darkgreen;}
-.del{color: red;}
-td{ color:black;
-	opacity: 90%; }
-li.dropdown {
-  display: inline-block;
-}
-.attendance-form
-{
-  background: rgba(255,255,255,0.1);
-  backdrop-filter:blur(20px);
-  padding: 20px;
-  border-radius: 10px;
-  width: 40%;
-  margin-left: 20px; 
-}
-.maka
-{
-	margin-left: 30px;
-	margin-top: -20px;
 
-  }
-  .attendanc
-  {
-  	margin-top: -10px;
-  }
+
+  
+  *{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: blue;
+    color: white;
+}
+header{
+  color: white;
+}
+h1,h2{
+    text-align: center;
+}
+
+ul{
+    padding-left: 40px;
+    font-size: 20px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+ol{
+    margin-left: 20px;
+    padding-left: 40px;
+    font-size: 25px;
+
+}
+footer{
+    font-size: 40px;
+    text-align: center;
+}
+.card{
+    width: 80%;
+    margin:40px auto;
+    border: 5px solid gray;
+    box-shadow: 5px 10px #888888;
+}
