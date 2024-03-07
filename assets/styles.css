@@ -36,7 +36,7 @@ display: flex;
     margin-top: 14px;
     margin-left: 20px; 
 }
-ul{}
+
 ul li
 {
 	list-style: none;
@@ -62,7 +62,7 @@ ul li a:hover
 }
 li a::after{
    content: "";
-   display: 
+   display: "";
 }	
 li.dropdown {
   display: inline-block;
